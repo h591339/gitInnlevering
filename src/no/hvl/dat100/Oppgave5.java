@@ -8,12 +8,17 @@ public class Oppgave5 {
 		// TODO Auto-generated method stub
 				String tall1;
 				
-				//int a1 = 100; int a =90; int b1 = 89; int b = 80; int c1 = 79; int c = 60; 
-				//int d1 = 59; int d = 50; int e1= 49; int e = 40; int f1 = 39; int f= 0;
+				for (int i =0; i<20; i++ ) { //Oppgave B
+			
 				
-				tall1 = JOptionPane.showInputDialog("Tast inn poengsum");
+				tall1 = JOptionPane.showInputDialog("Tast inn poengsum: ");
+				
+				
 				
 				int s = Integer.parseInt(tall1);
+				
+				
+				
 				
 				if (s>=0 && s<=100) {
 				
@@ -43,6 +48,13 @@ public class Oppgave5 {
 				}
 				else {
 					JOptionPane.showMessageDialog(null, "Ugylding nummer");
+					i = i-2; // Oppgave C Uglydig nummer blir nå lest på nytt 
 				}
+				i = i +1; 
+				
+				
+				
+				}
+				
 	}
 }
